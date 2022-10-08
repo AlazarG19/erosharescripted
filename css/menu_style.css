@@ -1,0 +1,178 @@
+@import "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css";
+
+div.scrollmenu {
+    background-color: #a8dadc;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+body {
+    background: #a8dadc;
+}
+
+.container {
+    margin-top: 110px;
+}
+
+.card {
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 20px;
+    opacity: .9;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    transition: transform .3s;
+    opacity: 1;
+}
+
+.text1 {
+    font-size: 17px;
+    color: black;
+}
+
+.info {
+    line-height: 19px;
+}
+
+.star {
+    color: #fbc02d;
+}
+
+/*card 1 */
+.cost span {
+    color: #286783;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-list-smothie{
+    background: #d5f6f7;
+}
+.product-list-burger{
+  background: #e5c9b3;
+}
+.product-list-sandwich{
+  background: #a4d3c5;
+}
+.product-list-pizza{
+    background: #8F3E00;
+  }
+  .product-list-salad{
+    background: #2D6A4F;
+  }
+.cursor {
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.items {
+    margin: 0 15px 15px 15px;
+}
+
+img {
+    border-radius: 30px;
+}
+
+.categories {
+    color: #35728c;
+    padding: 20px;
+}
+
+nav ul li.btn {
+    display: block;
+    margin-top: 20px;
+}
+
+.spacer {
+    aspect-ratio: 900/100;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer4 {
+    background-image: url('../images/layer4.svg');
+}
+.layer7 {
+  background-image: url('../images/layer7.svg');
+}
+.layer8 {
+  background-image: url('../images/layer8.svg');
+}
+.layer11 {
+    background-image: url('../images/layer11.svg');
+  }
+  .layer12 {
+    background-image: url('../images/layer12.svg');
+  }
+h1 {
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.font {
+    font-size: 22px;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.smothie-section {
+    background-color: #a8dadc;
+
+}
+
+.smothie-section>div.scrollmenu {
+  background-color: #a8dadc;
+}
+
+.burger-section {
+    background-color: #FFF1E6;
+}
+
+.burger-section>div.scrollmenu {
+  background-color: #FFF1E6;
+}
+
+.sandwich-section {
+
+    background-color: #E2ECE9;
+}
+
+.sandwich-section>div.scrollmenu {
+  background-color: #E2ECE9;
+}
+.pizza-section {
+
+    background-color: #FFC599;
+}
+
+.pizza-section>div.scrollmenu {
+  background-color: #FFC599;
+}
+.salad-section {
+
+    background-color: #74C69D;
+}
+
+.salad-section>div.scrollmenu {
+  background-color: #74C69D;
+}

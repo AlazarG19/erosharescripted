@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #a8dadc;
+}
+.about{
+    
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.about-section{
+    background: url(../images/ero5.jpg) no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    padding: 100px 0;
+    
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #6b6b6b;
+    padding: 150px;
+    opacity: 0.7;
+
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+h1{color: white;
+
+}
+.text{
+    font-size: 20px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social-links{
+	display: inline-block;
+	height: 40px;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links :hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.fa-telegram,.fa-facebook{
+	font-size: 40px;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.spacer{
+    aspect-ratio : 900/100;
+    width : 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size : cover;
+}
+.layer5{
+    background-image: url('../images/layer5.svg');  
+}
+h1 {
+    
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    max-width: 50rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    font-family: 'Architects Daughter', cursive;
+}
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+     
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

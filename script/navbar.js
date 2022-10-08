@@ -1,1 +1,20 @@
-(function (g, h) { const o = f; const i = g(); while (!![]) { try { const j = -parseInt(o(0x7a)) / 0x1 + parseInt(o(0x7b)) / 0x2 + -parseInt(o(0x88)) / 0x3 + -parseInt(o(0x89)) / 0x4 + -parseInt(o(0x83)) / 0x5 + -parseInt(o(0x80)) / 0x6 * (parseInt(o(0x71)) / 0x7) + parseInt(o(0x7d)) / 0x8 * (parseInt(o(0x87)) / 0x9); if (j === h) { break; } else { i['push'](i['shift']()); } } catch (k) { i['push'](i['shift']()); } } }(e, 0x65b3f)); function f(a, b) { const c = e(); f = function (d, g) { d = d - 0x69; let h = c[d]; return h; }; return f(a, b); } const d = (function () { let g = !![]; return function (h, i) { const j = g ? function () { const p = f; if (i) { const k = i[p(0x7e)](h, arguments); i = null; return k; } } : function () { }; g = ![]; return j; }; }()); const c = d(this, function () { const q = f; return c['toString']()[q(0x85)](q(0x72))[q(0x6e)]()[q(0x6d)](c)[q(0x85)](q(0x72)); }); function e() { const x = ['.about-link', '__proto__', 'info', 'menu.html', 'constructor', 'toString', 'querySelector', 'log', '49763KwfNqm', '(((.+)+)+)+$', '.home-link', 'click', 'location.html', '.menu-link', '{}.constructor(\x22return\x20this\x22)(\x20)', 'warn', '.location-link', '485670BQaIQH', '929808qeotXC', 'error', '83528VrNvEG', 'apply', 'about.html', '66IDSvYg', 'prototype', 'return\x20(function()\x20', '1866270iKuYQV', 'console', 'search', 'location', '936XDShNt', '63009JXVjhQ', '704268jgnygy', 'bind', 'addEventListener']; e = function () { return x; }; return e(); } c(); const b = (function () { let g = !![]; return function (h, i) { const j = g ? function () { if (i) { const k = i['apply'](h, arguments); i = null; return k; } } : function () { }; g = ![]; return j; }; }()); const a = b(this, function () { const s = f; const g = function () { const r = f; let k; try { k = Function(r(0x82) + r(0x77) + ');')(); } catch (l) { k = window; } return k; }; const h = g(); const i = h[s(0x84)] = h[s(0x84)] || {}; const j = [s(0x70), s(0x78), s(0x6b), s(0x7c), 'exception', 'table', 'trace']; for (let k = 0x0; k < j['length']; k++) { const l = b[s(0x6d)][s(0x81)][s(0x8a)](b); const m = j[k]; const n = i[m] || l; l[s(0x6a)] = b[s(0x8a)](b); l[s(0x6e)] = n['toString']['bind'](n); i[m] = l; } }); a(); window['addEventListener']('DOMContentLoaded', g => { const t = f; let h = document['querySelector'](t(0x73)); let i = document[t(0x6f)](t(0x69)); let j = document[t(0x6f)](t(0x76)); let k = document[t(0x6f)](t(0x79)); console[t(0x70)](h); h[t(0x8b)](t(0x74), () => { window['location'] = 'index.html'; }); i[t(0x8b)](t(0x74), () => { const u = t; window[u(0x86)] = u(0x7f); }); j[t(0x8b)](t(0x74), () => { const v = t; window[v(0x86)] = v(0x6c); }); k[t(0x8b)](t(0x74), () => { const w = t; window[w(0x86)] = w(0x75); }); });
+window.addEventListener("DOMContentLoaded", (event) => {
+    let home = document.querySelector(".home-link")
+    let about = document.querySelector('.about-link')
+    let menu = document.querySelector('.menu-link')
+    let location = document.querySelector('.location-link')
+    console.log(home)
+    home.addEventListener("click", () => {
+        window.location = "index.html"
+    })
+    about.addEventListener("click", () => {
+        window.location = "about.html"
+    })
+    menu.addEventListener("click", () => {
+        window.location = "menu.html"
+    })
+    location.addEventListener("click", () => {
+        window.location = "location.html"
+    })
+
+})
